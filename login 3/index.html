@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login--box">
+        <div class="header--login">
+          <div class="logo--box">
+            <img src="cdnlogo.com_ChatGPT.svg" alt="" />
+          </div>
+          <h1>Login Into Your Account</h1>
+          <p>Welcome back! Select method to log in :</p>
+        </div>
+        <div class="body--login">
+          <div class="oAuth--login">
+            <a href=""
+              ><button><i class="fa-brands fa-google"></i> Google</button></a
+            >
+            <a href="">
+              <button><i class="fa-brands fa-facebook"></i> facebook</button>
+            </a>
+          </div>
+          <div class="liner">
+            <hr />
+            or continue with email
+            <hr />
+          </div>
+          <div class="input--box">
+            <div class="wrapper--input">
+              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+              <input type="text" />
+              <div class="icon"></div>
+            </div>
+            <div class="wrapper--input-password">
+              <div class="icon"><i class="fa-solid fa-lock"></i></div>
+              <input type="password" id="showPass" />
+              <div class="icon-passwrd">
+                <button onclick="showPwd()"><i class="fa-solid fa-eye-slash"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox--wrapper">
+            <span><input type="checkbox" name="" id="" /> remember me</span>
+            <a href="">forgot password?</a>
+          </div>
+
+          <div class="login--btn">
+            <a href="">
+              <button>log in</button>
+            </a>
+          </div>
+          <div class="signUp--action">
+            <p>dont have an account? <a href="">create an account</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
