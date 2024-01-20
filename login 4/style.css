@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: purple;
+    font-weight: 600;
+  }
+
+  .login--container {
+    background-color: #d9e0eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login--wrapper {
+    /* background-color: antiquewhite; */
+    padding: 3rem;
+  }
+
+  .mainhead {
+    text-align: center;
+    margin: 2px 0px 35px 0px;
+  }
+
+  .mainhead span {
+    color: #525ceb;
+  }
+
+  ._inputboxWrapper {
+    /* background-color: aliceblue; */
+    width: 270px;
+    /* gap: 14px; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputBox {
+    /* display: flex; */
+    /* background-color: rgb(255, 216, 169); */
+    padding: 6px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .forgotPsw {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6.89px;
+  }
+
+  .forgotPsw a {
+    color: #919294;
+  }
+
+  .forgotPsw a:hover {
+    color: #525ceb;
+  }
+
+  .inputWrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 6px;
+  }
+
+  .inputWrapper input {
+    width: 100%;
+    padding: 3px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .inputWrapper input::placeholder {
+    font-weight: 600;
+  }
+
+  .inputWrapper #showPass {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+    margin: 6px;
+  }
+
+  .inputWrapper #showPass:hover {
+    background-color: rgb(238, 238, 238);
+  }
+
+  .button--actiontrigger {
+    padding: 4px;
+    /* background-color: rgb(176, 134, 72); */
+  }
+
+  .button--actiontrigger button {
+    width: 100%;
+    padding: 10.89px;
+    border-radius: 6.87px;
+    border: none;
+    outline: none;
+    background-color: #525ceb;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .signUp p {
+    text-align: center;
+  }
+
+  .signUp a {
+    color: #525ceb;
+  }
+
+  .breakparagraph {
+    text-align: center;
+  }
+
+  .oAuthlog {
+    display: flex;
+    /* background-color: aliceblue; */
+    padding: 12px;
+    justify-content: space-between;
+  }
+
+  .oAuthlog button {
+    padding: 8px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 3.87px;
+    font-weight: 600;
+    color: #525ceb;
+    background-color: #e0e9f7;
+  }
